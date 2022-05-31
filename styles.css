@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
 .character-card {
-  height: 45vh;
+  height: 60vh;
   width: 20vw;
   display: flex;
   flex-direction: column;
@@ -43,6 +43,7 @@
   justify-content: space-around;
   align-items: center;
   margin: 5rem;
+  height: 100%;
 }
 
 * {
@@ -58,7 +59,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 10vh;
+  height: 15vh;
   background-color: rgba(124, 8, 8, 0.815);
 }
 .nav__title {
