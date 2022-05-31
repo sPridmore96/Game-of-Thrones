@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+.character-card {
+  height: 45vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem auto;
+  font-family: "Cinzel Decorative", cursive;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgba(143, 142, 142, 0.178);
+  color: black;
+  border-radius: 20px;
+}
+.character-card__name {
+  color: black;
+  font-size: 3rem;
+  font-weight: 1000;
+  margin: 0.5rem;
+}
+.character-card__image {
+  margin: 1rem;
+  height: 15vw;
+  width: 15vw;
+}
+.character-card__title {
+  width: 15vw;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.character-card__family {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.character-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.nav {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background-color: rgba(124, 8, 8, 0.815);
+}
+.nav__title {
+  font-size: 5rem;
+  font-weight: 1000;
+  font-family: "Cinzel Decorative", cursive;
+}
+.nav__search-div {
+  height: 4rem;
+  width: auto;
+}
+.nav__search-div input {
+  height: 100%;
+  width: auto;
+  padding: 0.4rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.nav__checkboxes {
+  width: 30vw;
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
+}
+.nav__checkboxes div {
+  display: flex;
+  width: 20rem;
+  align-items: center;
+  margin: 2rem;
+}
+.nav__checkboxes input {
+  width: 2rem;
+  height: 2rem;
+  margin: 0.2rem;
+}
+.nav__checkboxes label {
+  font-size: 2rem;
+  font-weight: 1000;
+  margin-right: 0.7rem;
+}/*# sourceMappingURL=styles.css.map */

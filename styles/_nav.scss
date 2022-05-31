@@ -1,0 +1,53 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.nav {
+
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: rgba(124, 8, 8, 0.815);
+
+    &__title {
+        @include boldText(5rem, 1000);
+        font-family: $main-font;
+    }
+
+    &__search-div {
+        height: 4rem;
+        width: auto;
+        & input {
+            height: 100%;
+            width: auto;
+            padding: 0.4rem;
+            @include boldText(2rem, 600)
+        }
+    }
+
+    &__checkboxes {
+        width: 30vw;
+        display: flex;
+        justify-content: space-evenly;
+        width: 30vw;
+        & div {
+            display: flex;
+            width: 20rem;
+            align-items: center;
+            margin: 2rem;
+
+        }
+        & input {
+            width: 2rem;
+            height: 2rem;
+            margin: 0.2rem;
+        }
+
+        & label {
+            @include boldText(2rem, 1000);
+            margin-right: 0.7rem;
+        }
+    }
+}

@@ -1,0 +1,5 @@
+@mixin boldText ($fontSize: 3rem, $font-weight: 1000){
+    font-size: $fontSize;
+    font-weight: $font-weight;
+
+}
